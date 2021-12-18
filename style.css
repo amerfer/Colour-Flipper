@@ -1,0 +1,43 @@
+*{
+    /* removes the padding */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* try importing a font */
+    background-color: #ffffff;
+    color: violet;
+    text-align: center;
+}
+
+
+
+
+nav{
+    background-color: rgb(255, 0, 0);
+}
+
+nav h2{
+    font-size: 3rem;
+}
+
+
+
+
+main{
+    display: grid;
+    padding-top: 15%;
+}
+
+main h2 {
+    font-size: 4rem;
+}
+
+ .button{
+    margin-top: 3%;
+}
