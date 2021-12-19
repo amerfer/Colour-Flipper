@@ -6,38 +6,57 @@
 }
 
 
-
-
 body {
     font-family: Georgia, 'Times New Roman', Times, serif; /* try importing a font */
     background-color: #ffffff;
-    color: violet;
+    color: black;
     text-align: center;
+    
 }
 
 
 
 
 nav{
-    background-color: rgb(255, 0, 0);
-}
-
-nav h2{
-    font-size: 3rem;
-}
-
-
+    text-align: center;
+    background-color: white;
+    font-size: 2rem;
+    padding: 5px;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);;
+} 
 
 
 main{
+    margin: auto;
+    margin-top: 20px;
+    
+    place-items: center;
     display: grid;
-    padding-top: 15%;
 }
 
-main h2 {
-    font-size: 4rem;
+.container{
+    padding: 15rem;
+    line-height: 2.5rem;
+    text-align: center;
 }
 
- .button{
-    margin-top: 3%;
+.container h2{
+    color: black;
+    padding: 2rem;
+    border-radius: 0.5em;
+    background-color: white;
 }
+
+button {
+    background-color: grey;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+

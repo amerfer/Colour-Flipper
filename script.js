@@ -17,7 +17,7 @@ function colourChange() {
 
 // "OPTIMAL" way 
 
-//This function prevents doing certain methods multipl times
+//This function prevents rewriting multiple methods 
 function colourNumber(){
     return Math.floor(Math.random() * 255)
 } 
